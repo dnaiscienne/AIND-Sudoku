@@ -3,12 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: In this project, the constraint we are propagating is that if  two boxes are down to both the same pair of values, then their common peers cannot posses the same values allowing us to eliminate the values in the pair from them. In the code, it is applied by obtaining the naked (exactly two)pair values that occur twice (in two boxes) for each unit and removing each digit in the pair from the values in the other boxes not containing the pair.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
-
+A: In the diagonal sudoku problem, the same constraint is applied but this time in a new space (?); hence, to apply this, we need only to add the diagonal units to our list of units.
 ### Install
 
 This project requires **Python 3**.
